@@ -1,0 +1,1 @@
+docker-machine ssh char docker rmi -f $(docker images --quiet)
