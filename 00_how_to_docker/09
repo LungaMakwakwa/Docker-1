@@ -1,0 +1,13 @@
+apt update
+apt install build-essentials
+apt install vim
+apt install git
+git clone https://github.com/The-only-blue/testRepo.git
+cd testRepo/
+vim hello_word.c
+gcc hello_word.c
+./aout hello_word
+git config --global user.email "lmakwakw@student.wethinkcode.co.za"
+git add *
+git commit -m "The c file/s"
+git push
