@@ -1,0 +1,1 @@
+FROM ft_rails:onbuild
